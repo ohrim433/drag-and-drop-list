@@ -1,0 +1,50 @@
+body {
+    background-color: #b2d9d0;
+    color: #164a44;
+
+    font-family: Tahoma, sans-serif;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.selected {
+    opacity: 0.6;
+}
+
+.tasks__item {
+    background-color: #dff2ef;
+    border: 2px dashed #b2d9d0;
+    border-radius: 10px;
+
+    cursor: move;
+
+    margin-bottom: 10px;
+    max-width: 250px;
+    padding: 5px;
+
+    text-align: center;
+    transition: background-color 0.5s;
+}
+
+.tasks__item:last-child {
+    margin-bottom: 0;
+}
+
+.tasks__list {
+    list-style: none;
+
+    margin: 0;
+    padding: 0;
+}
+
+.tasks__title {
+    margin: 50px 0 20px 0;
+
+    text-align: center;
+    text-transform: uppercase;
+}
